@@ -1,0 +1,90 @@
+nav {
+    background-color: grey;
+}
+nav {
+    display: block;
+}
+body {
+    font-family: Nunito, sans-serif;
+}
+
+header {
+    background-image: url(./images/wood.jpg);
+    font-size: 25px;
+    padding: 15% 10%;
+}
+header {
+    display: block;
+}
+body {
+    font-family: Nunito, sans-serif;
+}
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.work {
+    background-color: grey;
+}
+.container {
+    text-align: left;
+    padding: 5% 10%;
+}
+section {
+    display: block;
+}
+body {
+    font-family: Nunito, sans-serif;
+}
+footer {
+    background-color: grey;
+}
+footer {
+    display: block;
+}
+body {
+    font-family: Nunito, sans-serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+    img {
+        border-color: turquoise;
+    }
+    .container {
+        text-align: left;
+        padding: 5% 10%;
+    }
+    body {
+        font-family: Nunito, sans-serif;
+    }
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    .about {
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: grey;
+    }
+    .container {
+        text-align: left;
+        padding: 5% 10%;
+    }
+    section {
+        display: block;
+    }
+    body {
+        font-family: Nunito, sans-serif;
+    }
