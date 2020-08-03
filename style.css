@@ -1,17 +1,28 @@
-.nav {
+nav {
     background-color: grey;
 }
-
-.body {
+nav ul li {
+    display: inline;
+    margin: 300px;
+    justify-items: right;
+}
+h1 {
+    background-color: turquoise;
+    background-size: cover;
+}
+nav a:hover {
+    color: turquoise;
+}
+body {
     font-family: Nunito, sans-serif;
 }
 
-.header {
-    background-image: url(./images/wood.jpg);
+header {
+    background-image: url(assets/images/wood.jpg);
     font-size: 25px;
     padding: 15% 10%;
 }
-.header {
+header {
     display: block;
 }
 .body {
@@ -36,12 +47,11 @@ section {
 .body {
     font-family: Nunito, sans-serif;
 }
-.footer {
+footer {
     background-color: grey;
+    justify-content: center;
 }
-.footer {
-    display: block;
-}
+
 .body {
     font-family: Nunito, sans-serif;
 }
@@ -57,14 +67,10 @@ section {
     width: 200px;
 
 }
-    .container {
-        text-align: left;
-        padding: 5% 10%;
-    }
-    body {
+body {
         font-family: Nunito, sans-serif;
     }
-    .h2 {
+.h2 {
         display: block;
         font-size: 1.5em;
         margin-block-start: 0.83em;
@@ -73,18 +79,14 @@ section {
         margin-inline-end: 0px;
         font-weight: bold;
     }
-    .about {
+.container {
         background-size: cover;
         background-attachment: fixed;
         background-color: grey;
-    }
-    .container {
-        text-align: left;
-        padding: 5% 10%;
-    }
-    section {
+}
+section {
         display: block;
     }
-    body {
+body {
         font-family: Nunito, sans-serif;
     }
