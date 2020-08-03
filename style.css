@@ -6,9 +6,12 @@ nav ul li {
     display: inline;
     margin: 30px;
     justify-items: center;
+    
 }
 nav ul li a {
+    color: turquoise;
    display: inline;
+   text-align: right;
 }
 h1 {
     background-color: turquoise;
@@ -17,7 +20,7 @@ h1 {
     flex-wrap: wrap;
 }
 nav a:hover {
-    color: turquoise;
+    color: gold;
 }
 
 header {
@@ -29,31 +32,46 @@ header {
 .work {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
     justify-content: space-between;
     background-color: grey;
 }
+.v1 {
+    border-right: 9px solid black;
+    height: 200px;
+    padding: 1vw;
+    text-align: left;
+    justify-content: center;
+    background-color: grey;
+}
+.v2 {
+    text-align: left;
+    border-right: 9px solid black;
+    height: 200px;
+    background-color: grey;
+    display: block;
+}
 .container {
+    display: flex;
     text-align: left;
     padding: 5% 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
 }
 section {
     display: block;
-}
-body {
-    font-family: Nunito, sans-serif;
 }
 footer {
     background-color: grey;
     justify-content: center;
     padding: 20px;
+    text-align:left;
     display: block;
-}
-
-body {
-    font-family: Nunito, sans-serif;
 }
 .p {
     display: block;
+    background-color: grey;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -62,22 +80,12 @@ body {
 .profile-img {
     height: 200px;
     width: 200px;
+    padding: 50px;
 
 }
 h2 {
-        display: block;
-        font-size: 1.5em;
-        margin-block-start: 0.83em;
-        margin-block-end: 0.83em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+       display: flex;
+       background-color: grey;
         font-weight: bold;
-    }
-.container {
-        background-size: cover;
-        background-attachment: fixed;
-        background-color: grey;
-}
-section {
-        display: block;
+    
     }
