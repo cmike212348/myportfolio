@@ -1,11 +1,14 @@
 nav {
     background-color: grey;
 }
+
 nav ul li {
     display: inline;
-    flex-wrap: nowrap;
-    margin: 300px;
+    margin: 30px;
     justify-items: center;
+}
+nav ul li a {
+   display: inline;
 }
 h1 {
     background-color: turquoise;
@@ -16,28 +19,17 @@ h1 {
 nav a:hover {
     color: turquoise;
 }
-body {
-    font-family: Nunito, sans-serif;
-}
 
 header {
     background-image: url(assets/images/wood.jpg);
     font-size: 25px;
-    padding: 15% 10%;
-}
-header {
+    padding: 15% 0%;
     display: block;
-}
-.body {
-    font-family: Nunito, sans-serif;
 }
 .work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 60px;
-}
-.work {
     background-color: grey;
 }
 .container {
@@ -53,7 +45,8 @@ body {
 footer {
     background-color: grey;
     justify-content: center;
-    padding: 20px:
+    padding: 20px;
+    display: block;
 }
 
 body {
@@ -71,9 +64,6 @@ body {
     width: 200px;
 
 }
-body {
-        font-family: Nunito, sans-serif;
-    }
 h2 {
         display: block;
         font-size: 1.5em;
@@ -90,7 +80,4 @@ h2 {
 }
 section {
         display: block;
-    }
-body {
-        font-family: Nunito, sans-serif;
     }
