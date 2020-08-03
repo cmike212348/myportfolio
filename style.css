@@ -3,12 +3,15 @@ nav {
 }
 nav ul li {
     display: inline;
+    flex-wrap: nowrap;
     margin: 300px;
-    justify-items: right;
+    justify-items: center;
 }
 h1 {
     background-color: turquoise;
     background-size: cover;
+    display: inline;
+    flex-wrap: wrap;
 }
 nav a:hover {
     color: turquoise;
@@ -44,15 +47,16 @@ header {
 section {
     display: block;
 }
-.body {
+body {
     font-family: Nunito, sans-serif;
 }
 footer {
     background-color: grey;
     justify-content: center;
+    padding: 20px:
 }
 
-.body {
+body {
     font-family: Nunito, sans-serif;
 }
 .p {
@@ -70,7 +74,7 @@ footer {
 body {
         font-family: Nunito, sans-serif;
     }
-.h2 {
+h2 {
         display: block;
         font-size: 1.5em;
         margin-block-start: 0.83em;
